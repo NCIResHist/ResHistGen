@@ -11,31 +11,31 @@ residential histories for a set of research subjects. These steps can be
 performed by staff at the cancer registry, members of the research team, or
 staff at a third-party contractor.
 
-1.     Individual patient identifiers are needed for this
+1. Individual patient identifiers are needed for this
 process. It is essential that the researcher follow established procedures to
 protect the privacy of human subjects.
 
-2.     Submit subject names and identifiers for relevant cases
+2. Submit subject names and identifiers for relevant cases
 to the commercial vendor.
 
-3.     Geocode the addresses you have received from the
+3. Geocode the addresses you have received from the
 commercial vendor. All U.S. cancer registries have access to the North American
 Association of Central Cancer Registries (NAACCR) geocoder, but any batch
 geocoder can be used.
 
-4.     Run the first SAS program (01_MatchAddresses1.sas) to match common addresses. 
+4. Run the first SAS program (01_MatchAddresses1.sas) to match common addresses. 
 For a study with a limited number of study subjects, possible matches can be reviewed 
 manually in a 2-step process. For a study with a vary large number of subjects, 
 this can be done automatically in a single step.
 
-5.     If a manual review is desired, edit the
+5. If a manual review is desired, edit the
 “LN_matchcombos_review.xlsx” created by the first program by deleting rows that
 are not matches.
 
-6.     Run the second SAS program (02_MatchAddresses2.sas) to add manual review results (if any) and
+6. Run the second SAS program (02_MatchAddresses2.sas) to add manual review results (if any) and
 combine matched addresses.
 
-7.     Run the third SAS program (03_BuildResHistory.sas) to reconcile addresses and generate a
+7. Run the third SAS program (03_BuildResHistory.sas) to reconcile addresses and generate a
 derived residential history.
 
 The current release of these programs is Version 2.0.  For a summary of changes
