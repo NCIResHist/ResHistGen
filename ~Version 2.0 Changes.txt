@@ -7,7 +7,7 @@ Summary of major changes:
 
 * Fixed a bug when adding new entries to the common address group array
 
-* Added code to handle street numbers consisting of a number followed by single letter (e.g., 123N Main Street)
+* Added code to handle street numbers consisting of a number followed by single letter (e.g., 123B Main Street)
 
 * New parameters:
 	* MissingGeoLevel: geocoding level text string to be interpreted as missing
