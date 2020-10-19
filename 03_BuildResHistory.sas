@@ -1,9 +1,9 @@
 /* Step 3: Build residential histories from vendor data */
 
 /* This program was developed by Westat, Inc. under NCI contracts HHSN261201500371P and HHSN261201600004B */
-/* Version 2.0, copyright 2018 */
+/* Version 2.1, copyright 2020 */
 /* If you publish results based on these programs, please include the following citation:
-    ResHistGen Residential History Generation Programs, Version 2.0 - September 2018;
+    ResHistGen Residential History Generation Programs, Version 2.1 - October 2020;
     Surveillance Research Program, National Cancer Institute.
 */
 
